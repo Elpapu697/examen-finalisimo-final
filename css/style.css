@@ -1,0 +1,243 @@
+.audio-box{
+    width: 400px;
+    height: 450px;
+   
+    overflow: hidden;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    width: 350px;
+    height: 55px;
+    background-color: purple;
+    border-bottom: 3px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.disc{
+    width: 255px;
+    height: 255px;
+    background-color: rgb(94, 35, 153);
+    border-radius: 50%;
+    background: linear-gradient(red,green,blue);
+    background-image: url("../cosetas/5856b3da4f6ae202fedf2794.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: rotacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    
+    }
+.disc:hover{ animation-play-state: running;}
+.medium{
+    width: 350px;
+    height: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(purple,pink,white);
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url("../cosetas/CULPA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(103, 100, 28);
+    border-radius: 50%;
+
+}
+
+.logo2{
+    width: 100px;
+    height: 100px;
+    background-image: url("../cosetas/wdta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.logo3{
+    width: 100px;
+    height: 100px;
+    background-image: url("../cosetas/chdh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.logo4{
+    width: 100px;
+    height: 100px;
+    background-image: url("../cosetas/vytv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.barra{
+    width: 350px;
+    height: 20px;
+    background-color: rgb(75, 105, 101);
+   
+}
+
+.buttoms{
+    width: 350px;
+    height: 80px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#cancion{
+    width: 400px;
+    height: 40px;
+    margin-left:-40px;
+}
+
+
+.header h3{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+}
+
+@keyframes rotacion{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+
+}
+
+
+
+
+
+
+#pause-btn
+{
+    width: 60px;
+    height: 60px;
+    
+    color: black;
+    border-radius: 50%;
+    background-image: url("../cosetas/pausa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#play-btn
+{
+    width: 60px;
+    height: 60px;
+    
+    color: black;
+    border-radius: 50%;
+    background-image: url("../cosetas/play.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#pause-btn:hover
+{
+    width: 70px;
+    height: 70px;
+    
+}
+#play-btn:hover
+{
+    width: 70px;
+    height: 70px;
+
+    
+}
+
+#stop-btn
+{
+    width: 60px;
+    height: 60px;
+    
+    color: black;
+    border-radius: 50%;
+    background-image: url("../cosetas/reinicio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#stop-btn:hover
+{
+    width: 70px;
+    height: 70px;  
+}
+
+#next-btn
+{
+    width: 60px;
+    height: 60px;
+    
+    color: black;
+    border-radius: 50%;
+    background-image: url("../cosetas/siguiente.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#next-btn:hover{
+    width: 70px;
+    height: 70px;
+}
+
+#anterior-btn
+{
+    width: 60px;
+    height: 60px;
+    
+    color: black;
+    border-radius: 50%;
+    background-image: url("../cosetas/png-clipart-creative-commons-license-public-copyright-license-previous-button-angle-text.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#anterior-btn:hover
+{
+    width: 70px;
+    height: 70px;
+   
+    
+}
+
+.title{
+    width: 300px;
+    border-left: 0px;
+}
+.but:hover{
+    width: 70px;
+    height: 70px;
+}
+
+
+
